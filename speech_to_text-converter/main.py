@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-
 # NOTE: this example requires PyAudio because it uses the Microphone class
 
 import speech_recognition as sr
@@ -27,6 +26,7 @@ try:
 	try:
 		test = subprocess.Popen([command], stdout=subprocess.PIPE)
 		output = test.communicate()[0]
+		subprocess.call(["espeak",output])
 	except:
 		os.system(command)
 	#except print ("can't execute command")
