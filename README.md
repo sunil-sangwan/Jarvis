@@ -3,7 +3,7 @@ Jarvis in python
 Simple hacks using jarvis  :)
 
 * [Speech to text converter](https://github.com/shark-S/Jarvis/tree/master/speech_to_text-converter)
-* [Desktop notifier](Desktop notifier)
+* [Desktop notifier](https://github.com/shark-S/Jarvis/tree/dev/desktop_notifier)
 
 for install library use  "pip instal l -r  requirement.txt"
 
